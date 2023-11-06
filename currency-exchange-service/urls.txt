@@ -1,0 +1,7 @@
+http://localhost:8081/currency-exchange/from/USD/to/INR
+http://localhost:8081/currency-exchange/from/EUR/to/INR
+http://localhost:8081/currency-exchange/from/CAD/to/INR
+http://localhost:8081/currency-exchange/from/AUD/to/INR
+
+
+http://localhost:8081/currency-exchange/from/AUD/to/INR
