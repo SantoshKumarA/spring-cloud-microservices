@@ -58,3 +58,13 @@
 
 - For new URL rewrite http://localhost:8765/currency-conversion-new/from/EUR/to/INR/quantity/12
 
+## Circuit Breaker
+
+- Retry http://localhost:8020/sample-api-retry
+
+- CircuitBreaker http://localhost:8020/sample-api-circuit-breaker
+
+- Rate Limiter http://localhost:8020/rate-limiter-api
+
+- Bulk Head http://localhost:8020/bulk-head-api
+
