@@ -61,7 +61,7 @@ Custom Routes
 - http://localhost:8765/CURRENCY-EXCHANGE-SERVICE/currency-exchange/from/EUR/to/INR
 
 - http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-conversion/from/EUR/to/INR/quantity/10
-- 
+
 - http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-conversion-rest-template/from/EUR/to/INR/quantity/10
 
 - http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-conversion-feign/from/EUR/to/INR/quantity/10
@@ -71,7 +71,7 @@ Custom Routes
 - http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR
 
 - http://localhost:8765/currency-conversion-service/currency-conversion/from/EUR/to/INR/quantity/11
--
+
 - http://localhost:8765/currency-conversion-service/currency-conversion-rest-template/from/EUR/to/INR/quantity/11
 
 - http://localhost:8765/currency-conversion-service/currency-conversion-feign/from/EUR/to/INR/quantity/11
@@ -86,4 +86,5 @@ Custom Routes
 
 - http://localhost:8765/currency-conversion-feign/from/EUR/to/INR/quantity/12
 
-- http://localhost:8765/currency-conversion-new/from/EUR/to/INR/quantity/12
+- For new URL rewrite http://localhost:8765/currency-conversion-new/from/EUR/to/INR/quantity/12
+
