@@ -44,7 +44,7 @@ public class CircuitBreakerController {
     }
 
     @GetMapping("/bulk-head-api")
-    @Bulkhead(name = "default", fallbackMethod = "fallBackResponseForSampleAPI")
+    @Bulkhead(name = "bulkHeadApi", fallbackMethod = "fallBackResponseForSampleAPI")
     public String bulkHeadApi() {
         logger.info(" *********** Bulk Head API is called.");
         return "Sample API Response";
