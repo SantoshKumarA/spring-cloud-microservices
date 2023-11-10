@@ -68,3 +68,6 @@
 
 - Bulk Head http://localhost:8020/bulk-head-api
 
+## Swagger or Open API Doc
+- http://localhost:8110/swagger-ui.html
+- http://localhost:8110/v3/api-docs

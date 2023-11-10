@@ -10,7 +10,13 @@ Spring Cloud Microservices
 - Spring Cloud Gateway at https://spring.io/projects/spring-cloud-gateway#overview
 
 - Service Registration and Discovery at https://spring.io/guides/gs/service-registration-and-discovery/ and https://cloud.spring.io/spring-cloud-netflix/multi/multi__service_discovery_eureka_clients.html
-- 
+
+- Springdoc OpenAPI - Specification and Swagger UI Tool
+- https://springdoc.org/
+- https://github.com/springdoc/springdoc-openapi
+
+
+
 
 # Git Help
 
