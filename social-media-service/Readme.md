@@ -31,11 +31,21 @@ Request
 
 ## Versioning
 Variety of Options
-1. URL (v1, v2)
-2. Request Parameter
-3. Header
-4. Media Type
+1. URL - Twitter (v1, v2)  (/v2/person) - part of URI
+2. Request Parameter - Amazon (/person?version=2) - code --> params = ""
+3. Header - Microsoft (X-API-VERSION=2) - code --> headers = ""
+4. Media Type - Github (using Accept headers: Accept: application/vnd.company.app-v2+json)  - code --> produces = ""
 
+### Factors to Consider:
+- URI Pollution
+- Misuse of HTTP Headers
+- Caching
+- Can one execute request on the browser?
+- API Documentation
+- Summary: No Perfect solution.
+- Think about versioning before it is needed. When starting the API design itself.
+- One Enterprise - One versioning Approach.
+- 
 
 URLs
 URI Versioning
